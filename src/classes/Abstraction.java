@@ -1,14 +1,17 @@
 package classes;
 
 abstract  class ATM {
+    // abstract methods (no implementation)
     abstract void withdraw();
     abstract void checkBalance();
-
+// normal method
     public void display(){
         System.out.println("Welcome to ATM");
     }
 }
 
+
+//child class
 class  userATM extends ATM{
     @Override
     void withdraw(){
