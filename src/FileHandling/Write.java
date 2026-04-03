@@ -8,7 +8,7 @@ public class Write {
 
         try{
 
-            FileWriter  mywriter = new FileWriter("C:\\Users\\thapa\\OneDrive\\Desktop\\project\\myfile.txt");
+            FileWriter  mywriter = new FileWriter("myfile.txt");
             mywriter.write("hello world , my name is milan thapa and i am from pyuthan.");
             mywriter.close();
             System.out.println("Successfully wrote a file.");
