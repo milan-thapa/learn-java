@@ -6,7 +6,7 @@ class Car{
     String model;
 
 
-    public void CarInfo(){
+    public void carInfo(){
         System.out.println("Brand: " + this.brand);
         System.out.println("Model: " + this.model);
 
@@ -28,6 +28,6 @@ public class Constructor {
         car1.model = "ghost";
 
 
-        car1.CarInfo();
+        car1.carInfo();
     }
 }
